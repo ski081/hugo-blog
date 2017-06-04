@@ -1,0 +1,5 @@
+baseURL = "http://markstruzinski.com/"
+languageCode = "en-us"
+title = "Mark Struzinski"
+
+theme = "hugo-theme-pixyll"

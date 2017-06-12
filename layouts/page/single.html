@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+
+<body>
+  <div id="blog">
+      {{ partial "header.html" . }}
+      {{ partial "sidebar.html" . }}
+      <div id="main" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}"
+        class="{{ with .Params.coverimage }}hasCover{{ end }}
+               {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
+               {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              {{ .Content }}
+            </div>
+          </div>
+        </article>
+      </div>
+      {{ partial "footer.html" . }}
+  </div>
+{{ partial "foot.html" . }}

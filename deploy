@@ -1,0 +1,9 @@
+#!/bin/sh
+
+USER=ski081
+HOST=66.175.214.108
+DIR=/var/www/html/
+
+hugo && rsync -avz --delete --omit-dir-times --no-perms public/ ${USER}@${HOST}:${DIR}
+
+exit 0

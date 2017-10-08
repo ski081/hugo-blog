@@ -1,0 +1,62 @@
+baseURL = "http://markstruzinski.com"
+languageCode = "en-us"
+title = "Mark Struzinski"
+theme = "minimal"
+disqusShortname = "ski081" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Mark Struzinski"
+    description = "Personal blog"
+    githubUsername = "ski081"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "swift", "objective-c"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:mark@markstruzinski.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/ski081/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/ski081/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/markstruzinski/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://stackoverflow.com/users/1284/mark-struzinski"
+    name = "stack-overflow"
+    weight = 5

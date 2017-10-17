@@ -62,7 +62,7 @@ Data available for the entire project**
 	5. Repeat this process, and create a `lastName` property, also of type `String`
 	6. When you finish, your entity should look like this:
 
-{{< image classes="fancybox" src="/img/logictests-person-entity.png" title="Person Entity" group="test" >}}
+{{< figure src="/img/logictests-person-entity.png" title="Person Entity" >}}
 
 - **Create an NSManagedObject subclass** [^1]
 	1. With your newly created **Person** entity selected, go to the menu bar,

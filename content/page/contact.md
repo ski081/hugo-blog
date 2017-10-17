@@ -11,7 +11,7 @@ title = "Contact"
 
 # Hi.
 
-{{< image classes="fig-20 right" src="/img/professional-circle.jpg" >}}
+{{< figure src="/img/professional-circle.jpg" >}}
 
 My name is Mark Struzinski. I've been doing software development for about 15
 years. Most of my focus early in my career was in web development. I've
